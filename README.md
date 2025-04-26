@@ -42,12 +42,12 @@ Project Structure
 │   ├── layout.tsx           # App layout
 │   └── page.tsx             # Home page
 ├── components/              # UI components
-│   └── ui/
+│   ├── RecipeCard.tsx        
+│   ├── SearchForm.tsx        
+│   └── ui/                   # Small reusable UI elements
 │       ├── Button.tsx
 │       ├── Pagination.tsx
 │       ├── Spinner.tsx
-│       ├── RecipeCard.tsx
-│       └── SearchForm.tsx
 ├── services/                # API service functions
 │   └── recipes-service.ts
 ├── types/                   # TypeScript types
